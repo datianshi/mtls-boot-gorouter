@@ -1,0 +1,7 @@
+---
+applications:  
+- name: mutualssl-server
+  memory: 1g
+  routes:
+  - route: server.mutual.shaozhenpcf.com
+  path: server/target/server-0.0.1-SNAPSHOT.jar
